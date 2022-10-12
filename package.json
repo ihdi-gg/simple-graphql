@@ -17,6 +17,7 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "start:8001": "nodemon --exec ts-node src/index.ts"
+    "start:8001": "nodemon --exec ts-node src/index.ts",
+    "start:8000": "nodemon --exec ts-node src/index2.ts"
   }
 }
